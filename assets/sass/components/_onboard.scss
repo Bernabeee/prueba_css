@@ -1,0 +1,15 @@
+
+.onboarding {
+    article {
+      margin: 0 auto;
+      position: relative;
+      top: 4vh;
+      width: 77vw;
+  
+      @media only screen and (min-width: $viewport-medium) {
+        margin: initial;
+        left: 8vw;
+        width: 32vw;
+      }
+    }
+  }

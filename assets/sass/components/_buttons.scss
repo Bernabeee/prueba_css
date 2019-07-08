@@ -1,0 +1,24 @@
+
+.btn {
+    border: none;
+    padding: 5px 10px;
+  
+    &--primary {
+      background-color: $ball-blue;
+      color: $white;
+  
+      &:hover {
+        background-color: $middle-blue;
+      }
+  
+      &:active {
+        background-color: $silver-chalice;
+      }
+    }
+  
+    &--secondary {
+      background-color: $white;;
+      color: $raising-black;
+    }
+  
+  }

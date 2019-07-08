@@ -1,0 +1,33 @@
+.main-menu {
+  
+    &__left {
+      a {
+        display: none;
+      }
+    }
+  
+    &__right {
+      button {
+        display: none;
+      }
+    }
+  
+    @media only screen and (min-width: $viewport-medium) {
+      &__left {
+        a {
+          display: initial;
+        }
+      }
+  
+      &__right {
+        button {
+          display: initial;
+        }
+  
+        i {
+          display: none;
+        }
+      }
+    }
+  
+  }
