@@ -33,10 +33,6 @@ body {
   line-height: 1;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 blockquote, q {
   quotes: none;
 }
@@ -409,6 +405,13 @@ a {
   background-color: #fff;
   color: #221d23;
 }
+.btn--tree {
+  background-color: #2ab7ca;
+  color: #fff;
+  padding: 1rem 4rem;
+  display: block;
+  margin: auto;
+}
 
 .main-menu__left svg {
   height: 30px;
@@ -471,6 +474,83 @@ a {
   .onboarding {
     background-size: contain;
   }
+}
+
+.bg__mountain {
+  background-image: url("../img/bg-price.svg");
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.titulo--position {
+  text-align: center;
+}
+
+.titulo--color {
+  color: white;
+}
+
+.offer {
+  background-color: white;
+  padding: 2rem;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.offer h4 {
+  font-size: 35px;
+}
+
+.offer small {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.offer ul {
+  margin-left: 1.6rem;
+}
+
+.offer__position--uno {
+  grid-column: 4/7 !important;
+}
+
+.offer__position--dos {
+  grid-column: 7/10 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .offer__position--uno {
+    grid-column: 1/13 !important;
+  }
+
+  .offer__position--dos {
+    grid-column: 1/13 !important;
+  }
+
+  .offer {
+    background-color: white;
+    padding: 2rem;
+    overflow: hidden;
+    height: 80vh;
+  }
+
+  .offer .footer__one {
+    position: relative;
+    top: 22rem;
+  }
+
+  .offer .footer__two {
+    position: relative;
+    top: 15rem;
+  }
+}
+.footer--color {
+  background-color: #221d23;
+  color: #fff;
+}
+
+.footer--color a {
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

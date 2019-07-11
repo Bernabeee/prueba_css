@@ -20,5 +20,13 @@
       background-color: $white;;
       color: $raising-black;
     }
+
+    &--tree {
+      background-color: $ball-blue;
+      color: $white;
+      padding: 1rem 4rem;
+      display: block;
+      margin: auto;
+    }
   
   }
